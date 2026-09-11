@@ -16,7 +16,7 @@ const projects = [
     no: "01",
     title: "Job Portal Application",
     label: "FULL-STACK · ONGOING",
-    stack: ["Spring Boot", "React.js", "MySQL", "JWT", "REST APIs", "Postman"],
+    stack: ["Java", "Spring Boot", "React.js", "MySQL", "JWT", "REST APIs", "Postman"],
     description: "Developing a full-stack Job Portal application with separate roles for Job Seekers, Recruiters and Admins.",
     points: [
       "Developed and tested REST APIs for job listings, applications and recruiter management.",
