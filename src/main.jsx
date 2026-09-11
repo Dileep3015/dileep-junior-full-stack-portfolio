@@ -194,7 +194,6 @@ function App() {
           <p>Open to Junior Full Stack Developer opportunities and practical software projects.</p>
           <div className="contact-actions">
             <a href="mailto:dileepmotives@gmail.com">dileepmotives@gmail.com ↗</a>
-            <a href="tel:+917416613660">+91 74166 13660</a>
           </div>
           <div className="socials">
             <a href="https://github.com/Dileep3015" target="_blank" rel="noreferrer">GitHub</a>
