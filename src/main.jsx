@@ -56,6 +56,9 @@ function App() {
           <a href="#stack">STACK</a>
           <a href="#projects">PROJECTS</a>
           <a href="#training">TRAINING</a>
+          <a href="#certifications">CERTIFICATIONS</a>
+          <a href="#resume">RESUME</a>
+          <a href="#contact">CONTACT</a>
         </nav>
         <a className="hire-btn" href="#contact"><i></i> AVAILABLE</a>
       </header>
@@ -179,8 +182,62 @@ function App() {
           </div>
         </section>
 
+        <section id="certifications" className="section">
+          <div className="section-label">
+            <span>06</span> CERTIFICATIONS
+          </div>
+
+          <h2>
+            Credentials that support my <accent>technical foundation.</accent>
+          </h2>
+
+          <div className="certification-list">
+
+            <div className="certification-item">
+              <span className="certification-number">01</span>
+              <div>
+                <h3>Java & Python Full Stack Development</h3>
+                <p>KodNest Technologies</p>
+              </div>
+            </div>
+
+            <div className="certification-item">
+              <span className="certification-number">02</span>
+              <div>
+                <h3>Certification on Emerging Technologies – Data Science</h3>
+                <p>Indo-Euro Synchronization, Rajampet</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="resume" className="section resume-section">
+          <div className="section-label">
+            <span>07</span> RESUME
+          </div>
+
+          <h2>
+            Want the complete <accent>profile?</accent>
+          </h2>
+
+          <p className="section-description">
+            View or download my resume for a detailed overview of my
+            education, technical skills, training and projects.
+          </p>
+
+          <a
+            className="project-link"
+            href={`${import.meta.env.BASE_URL}DileepKumarDonakonda.pdf`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            VIEW RESUME <span>↗</span>
+          </a>
+        </section>
+
         <section className="section beyond">
-          <div className="section-label"><span>06</span> BEYOND CODE</div>
+          <div className="section-label"><span>08</span> BEYOND CODE</div>
           <div className="beyond-box">
             <div><span>DDK</span><h2>DDKTalks</h2></div>
             <p>Content creation has strengthened my research, communication and presentation skills. I built DDKTalks as a digital content platform alongside my technical development.</p>
@@ -189,7 +246,7 @@ function App() {
         </section>
 
         <section id="contact" className="contact">
-          <div className="section-label"><span>07</span> CONTACT</div>
+          <div className="section-label"><span>09</span> CONTACT</div>
           <h2>Let's build<br/><accent>something useful.</accent></h2>
           <p>Open to Junior Full Stack Developer opportunities and practical software projects.</p>
           <div className="contact-actions">
