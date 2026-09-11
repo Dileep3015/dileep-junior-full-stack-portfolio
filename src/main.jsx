@@ -38,7 +38,7 @@ const projects = [
       "Optimized the ML model from approximately 308 MB to 58.2 MB for deployment constraints.",
       "Deployed the application using GitHub and Render."
     ],
-    github: "https://github.com/Dileep3015"
+    github: "https://github.com/Dileep3015/TRAFFIC-VOLUME"
   }
 ];
 
