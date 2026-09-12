@@ -260,7 +260,14 @@ function App() {
         </section>
       </main>
 
-      <footer><span>DILEEP KUMAR / JUNIOR FULL STACK DEVELOPER</span><span>JAVA · SPRING BOOT · REACT · MYSQL</span></footer>
+      <footer className="site-footer">
+        <div className="copyright-line">
+          <span>© {new Date().getFullYear()} Dileep Kumar.</span>
+          <span>All rights reserved.</span>
+        </div>
+        <span>DILEEP KUMAR / JUNIOR FULL STACK DEVELOPER</span>
+        <span>JAVA · SPRING BOOT · REACT · MYSQL</span>
+      </footer>
     </div>
   );
 }
