@@ -232,7 +232,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            VIEW RESUME <span>↗</span>
+            VIEW RESUME<span>↗</span>
           </a>
         </section>
 
