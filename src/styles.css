@@ -637,12 +637,12 @@ accent{
 }
 
 .timeline article>span{
-  font:9px "DM Mono";
+  font:12px "DM Mono";
   color:var(--cyan);
 }
 
 .timeline small{
-  font:9px "DM Mono";
+  font:12px "DM Mono";
   letter-spacing:1.5px;
   color:#66737e;
 }
