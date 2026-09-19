@@ -854,6 +854,28 @@ footer{
   font-size:17px;
   line-height:1.7;
 }
+.resume-actions{
+  display:flex;
+  align-items:center;
+  gap:32px;
+  flex-wrap:wrap;
+  margin-top:35px;
+}
+
+.resume-actions a{
+  display:inline-flex;
+  align-items:center;
+  padding:14px 18px;
+  border:1px solid var(--line);
+  color:var(--text);
+  text-decoration:none;
+  transition:.2s ease;
+}
+
+.resume-actions a:hover{
+  border-color:var(--cyan);
+  color:var(--cyan);
+}
 
 .contact-links{
   display:flex;

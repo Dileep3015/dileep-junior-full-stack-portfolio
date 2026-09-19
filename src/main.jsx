@@ -225,15 +225,24 @@ function App() {
             View or download my resume for a detailed overview of my
             education, technical skills, training and projects.
           </p>
+        
+          <div className="resume-actions">
+            <a
+              href={`${import.meta.env.BASE_URL}resume.html`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              VIEW RESUME
+            </a>
 
-          <a
-            className="project-link"
-            href={`${import.meta.env.BASE_URL}DileepKumarDonakonda.pdf`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            VIEW RESUME<span>↗</span>
-          </a>
+            <a
+              href={`${import.meta.env.BASE_URL}DileepKumarDonakonda.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DOWNLOAD PDF
+            </a>
+          </div>
         </section>
 
         <section className="section beyond">
